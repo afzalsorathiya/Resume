@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    
+}
+
+.container{
+    width: 70%;
+    display: flex;   
+    margin-inline: auto;
+    
+}
+
+.left-column{
+    width: 30%;
+}
+
+.right-column{
+    width: 70%;
+}
+
+
+
+.image-box img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.font-name {
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+}
+
+.image-box {
+    position: relative;
+}
+
+hr {
+    border: 1px solid grey;
+    margin-block: 10px;
+}
+
+.left-column ul {
+    list-style: none;
+    margin-inline: 20px;
+}
+
+.text-icon{
+    display: flex;
+    gap: 10px;
+}
+.article p{
+    font-size: 50px;
+}
+
+i, article div p{
+    color: teal;
+}
+
+.progress-bar {
+    background-color: #ccc;
+    border-radius: 20x;
+    border-radius: 20px;
+
+}
+
+.progress {
+    background-color: teal;
+    border-radius: 20px;
+    color: #eee;
+    text-align: center;
+}
+
+
+
+h2, h3 {
+color: dimgray;
+}
+
+.current-text {
+    background-color: teal;
+    color: white;
+    padding: 1px 3px;
+}
+
+.card-container {
+    margin-inline: 5px;
+}
+
+ul > li {
+    margin-block: 5px;
+}
+
+section ul li p {
+    color: black;    
+    font-size: medium;
+}
+
+.right-column article {
+    margin-block: 20px;
+}
+
+.card-container , .left-desc{
+    background-color: aliceblue;
+    padding: 20px;
+    margin-inline:10px ;
+    box-shadow: 4px 4px 4px #ccc;
+}
